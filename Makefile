@@ -34,7 +34,7 @@ OBJS = units/fftw_interface.o \
 CXX := g++ -std=c++11
 
 COMMON_CXXFLAGS = -pipe -Wall -Wextra -O2
-COMMON_LDFLAGS = -Wl,-O1,--sort-common,--as-needed
+COMMON_LDFLAGS = -Wl
 LTO_FLAGS := -flto
 
 OPTIMIZED_CXXFLAGS := -march=native -Ofast

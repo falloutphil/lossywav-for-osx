@@ -1,2 +1,10 @@
 bin
 obj
+
+*.o
+
+*.h~
+
+*.cpp~
+
+lossywav
